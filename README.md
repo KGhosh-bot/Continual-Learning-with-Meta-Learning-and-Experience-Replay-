@@ -56,13 +56,13 @@ A major challenge with Continual learning is to mitigate `Catastrophic forgettin
 
  2. MAML-Inspired Meta-Learning:
     - <i>Learned Initialization</i>: The MAML approach learns an initialization of parameters that are effective for rapid adaptation to a wide range of tasks. It trains the model’s parameters such that a small number of gradient updates will lead to fast learning on a new task.
-    - <i>Inner Loop Updates (Task-Specific Fine-Tuning)</i>: When learning new tasks, the model only fine-tunes a small number of gradient steps, which prevents excessive overwriting of the base parameters.
-    - <i>Outer Loop Updates (Meta-Optimization)</i>: Meta-optimization ensures that the base parameters remain robust and general, preserving knowledge that is broadly useful across tasks.
+    - *Inner Loop Updates (Task-Specific Fine-Tuning)*: When learning new tasks, the model only fine-tunes a small number of gradient steps, which prevents excessive overwriting of the base parameters.
+    - *Outer Loop Updates (Meta-Optimization)*: Meta-optimization ensures that the base parameters remain robust and general, preserving knowledge that is broadly useful across tasks.
 
  3. Balanced Training Strategy:
 
-    - <i>Combining Mini-Batches</i>: The model combines current mini-batches with samples drawn from the memory buffer, ensuring that it is trained on both new and historical data. This reduces the risk of overfitting to recent data or losing valuable information learned earlier.
-    - <i>Task-Specific Learning (Inner Update)</i>: The task-specific learning process ensures that each new task is adapted with minimal changes to the core parameters, which are meta-optimized to be adaptable yet stable.
+    - *Combining Mini-Batches*: The model combines current mini-batches with samples drawn from the memory buffer, ensuring that it is trained on both new and historical data. This reduces the risk of overfitting to recent data or losing valuable information learned earlier.
+    - *Task-Specific Learning (Inner Update)*: The task-specific learning process ensures that each new task is adapted with minimal changes to the core parameters, which are meta-optimized to be adaptable yet stable.
 
  4. Custom Weight Application and Dynamic Updates:
 
@@ -78,7 +78,7 @@ A major challenge with Continual learning is to mitigate `Catastrophic forgettin
     Fig. 2 Prediction Samples
 </p> 
 
-  - Enhanced adaptability and performance in the continual learning task, resulting in an 87.43% reduction in loss and 13.31% decrease in perplexity compared to traditional methods.
+  - Enhanced adaptability and performance in the continual learning task, resulting in an **87.43% reduction in loss** and **13.31% decrease in perplexity** compared to traditional methods.
     
-  - Advanced techniques such as fast gradient updates and memory buffer sampling enabled efficient learning across tasks  with minimal forgetting, achieving a test loss of 3.66 and perplexity of 48.78 on thecomplex datasets, showcasing significant improvement in model generalization.
+  - Advanced techniques such as fast gradient updates and memory buffer sampling enabled efficient learning across tasks  with minimal forgetting, achieving a **test loss of 3.66** and **perplexity of 48.78** on the complex datasets, showcasing significant improvement in model generalization.
 
