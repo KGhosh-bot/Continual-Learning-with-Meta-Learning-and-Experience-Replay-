@@ -4,7 +4,7 @@ Meta_ER PictoBERT: Enhancing Continual Learning with Meta-Learning and Experienc
 Augmentative and Alternative Communication (AAC) boards are Assistive Technology tools that try to compensate for the difficulties faced by people with Complex Communication Needs (CCN), such as people with down’s syndrome, autism spectrum disorder, intellectual disability, cerebral palsy, developmental apraxia of speech, or aphasia
 A pictogram is a picture with a label that denotes an action, object, person, animal, or place. Predicting the next pictogram to be set in a sentence in construction is an essential feature for AAC boards to facilitate communication. These tools allow individuals with CCN to communicate themselves by selecting and arranging pictograms in sequence to make up a sentence, as shown in the example illustrated in Fig. 1.
 <p align="center">
-    <img src="images/AAC.png", style="width: 600px; height: 300px;"/></center>
+    <img src="images/AAC.png", style="width: 600px; height: 500px;"/></center>
 </p>
 
 [PictoBERT](https://github.com/jayralencar/pictoBERT), an adaptation of BERT for the next pictogram prediction task, with changed input embeddings to allow word-sense usage instead of words, considering that a word-sense represents a pictogram.
@@ -71,7 +71,7 @@ A major challenge with Continual learning is to mitigate `Catastrophic forgettin
    
 # Evaluation
 <p align="center">
-    <img src="images/prediction_samples.jpeg", style="width: 600px; height: 700px;"/></center>
+    <img src="images/prediction samples.jpeg", style="width: 600px; height: 700px;"/></center>
 </p> 
 <p align="center">
     Fig. 2 Prediction Samples
