@@ -71,7 +71,7 @@ A major challenge with Continual learning is to mitigate `Catastrophic forgettin
    
 # Evaluation
 <p align="center">
-    <img src="images/prediction_samples.png", style="width: 600px; height: 700px;"/></center>
+    <img src="images/prediction_samples.jpeg", style="width: 600px; height: 700px;"/></center>
 </p> 
 <p align="center">
     Fig. 2 Prediction Samples
