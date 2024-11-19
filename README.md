@@ -70,10 +70,12 @@ A major challenge with Continual learning is to mitigate `Catastrophic forgettin
     - <i>Efficient Memory Management</i>: The cyclic replacement strategy in the memory buffer allows the model to maintain a diverse set of training examples over time, which is crucial for preventing forgetting in a continual learning scenario.
    
 # Evaluation
-[Fig. 2 Prediction Samples]
 <p align="center">
     <img src="imgs/prediction_samples.png", style="width: 600px; height: 300px;"/></center>
-</p>
+</p> 
+<p align="center">
+    Fig. 2 Prediction Samples
+</p> 
   - Enhanced adaptability and performance in the continual learning task, resulting in an 87.43% reduction in loss and 13.31% decrease in perplexity compared to traditional methods.
   - Advanced techniques such as fast gradient updates and memory buffer sampling enabled efficient learning across tasks  with minimal forgetting, achieving a test loss of 3.66 and perplexity of 48.78 on thecomplex datasets, showcasing significant improvement in model generalization.
 
